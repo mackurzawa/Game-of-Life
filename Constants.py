@@ -7,3 +7,5 @@ rows = int(.9*screen_height/cell_width)
 cols = int(screen_width/cell_width)
 
 bg_color = (200, 0, 0)
+
+time_interval = 0.2

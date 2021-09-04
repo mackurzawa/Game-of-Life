@@ -5,7 +5,6 @@ import sys
 import Constants
 
 
-
 def nextFrame(grid):
     grid2 = deepcopy(grid)
     hm = 0
@@ -114,4 +113,4 @@ while True:
     screen.blit(textsurface, (Constants.screen_width//2 - 80, 50))
     pygame.display.flip()
     if space_pressed:
-        sleep(0.2)
+        sleep(Constants.time_interval)
